@@ -33,7 +33,7 @@ In the program, a set of 8 digital sensors are used, connected to pins 2 to 9 to
 In the "setup()" function, the code sets the sensor pins (2 to 9) as inputs and sets their initial state to HIGH to enable the sensors to detect LOW signals when they are triggered. It also sets the speaker pin 10 as output and sets its initial state to LOW to keep the speaker off. 
 In the "loop()" function, the code reads the state of each sensor using "digitalRead()" and prints the values to the serial monitor. If a sensor is triggered (reads LOW), it plays the corresponding musical note on the speaker using the "tone()" function, which takes the speaker pin, the frequency of the note, and the duration (20 milliseconds) as arguments. The frequency of the note is obtained from the "freq" array based on the index of the triggered sensor. The code loops through all the sensors and continuously checks their states to play the appropriate musical notes on the buzzer when the sensors are triggered. 
 
-Prototype:
+# Prototype:
 <p><img src="https://github.com/pallav0id/Uber-Data-Analysis/assets/82913441/00a7c6ac-6922-4dc6-888d-dfa3a44fa618"></p>
 <p><img src="https://github.com/pallav0id/Uber-Data-Analysis/assets/82913441/b9cab658-6d2e-4fac-8d7c-26f46317e342"></p>
 <p><img src="https://github.com/pallav0id/Uber-Data-Analysis/assets/82913441/4c75cd45-bcdc-4673-a2aa-0b61137bd463"></p>
