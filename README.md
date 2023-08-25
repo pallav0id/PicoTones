@@ -1,10 +1,5 @@
 # PicoTones
 
-## Group Members
-- Saumya Saini (200901)
-- Sandhya Narwade (200858)
-- Pallavi (200661)
-
 ## Ideation
 The PicoTones project aims to develop an interactive instrument that generates sound when keys are touched, utilizing an IR sensor to detect key movements, an Arduino for processing sensor input, and a speaker for sound output. A detailed system design has been created, incorporating the integration of the IR sensor, Arduino, and speaker into a functional piano. Connections and communication between the components have been defined, with considerations for programming logic, wiring, and mounting arrangements. A functional prototype of the musical piano has been built, and Arduino code has been implemented to process IR sensor input, generate sound signals, and control speaker output.
 
